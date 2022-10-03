@@ -1,0 +1,44 @@
+/* .container {border: 1px dashed #ff0000;}
+.row {border: 1px solid #0000ff;}
+.row div {border: 1px solid #00ff00;} */
+
+body{
+  font-family: 'Forum';
+  font-size: x-large;
+  background-image: linear-gradient(to right, #777, #aaa, #aaa, #aaa, #aaa, #aaa, #777);
+}
+
+header {
+  /* background-image: linear-gradient(to right, darkblue,blue, purple,purple,purple, red, darkred); */
+  background-image: linear-gradient(to right, #777,#555, #555,indigo,#555, #555, #777);
+  text-decoration: none;
+}
+
+.body-footer {
+  background-image: linear-gradient(to right, #777,#555, #555,indigo,#555, #555, #777);
+  font-family:'Courier New', Courier, monospace;
+  font-size: x-large;
+}
+.text-indigo {
+  color: indigo;
+}
+
+.font-righteous {
+  font-family: 'Righteous';
+}
+
+hr {  
+  height:3px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.h100 {
+  height: 100px;
+}
+
+.container {
+  border: solid;
+  border-radius: 0.6rem;
+  border-color: indigo;
+}
