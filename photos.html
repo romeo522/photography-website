@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" />
+	<link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+	<link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway&family=Forum&family=Righteous&display=swap">
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<link rel="shortcut icon" href="img/faviconusa2.ico" type="image/x-icon">
+
+	<title>Romeo's Photography</title>
+</head>
+
+<body class="text-dark">
+	<header class="sticky-top" style="z-index: 2;">
+		<div class="container" style="border: none;">
+			<div class="row h100">
+				<div class="col">
+          <a role="button" class="btn btn-lg text-light" href="mailto:contact@email.com">
+            <i class="fa-solid fa-envelope pr-2 text-indigo"></i>CONTACT
+          </a>
+				</div>
+				<div class="col text-right">
+          <a role="button" class="btn btn-lg text-light" data-toggle="modal" data-target="#reserveModal">
+            SCHEDULE<i class="fa-regular fa-calendar pl-2 text-indigo"></i>
+          </a>
+				</div>
+				<div class="w-100"></div>
+				<div class="col">
+          <a role="button" class="btn btn-lg text-light" href="index.html">
+            <i class="fa-solid fa-home pr-2 text-indigo"></i>HOME
+          </a>
+				</div>
+				<div class="col text-right">
+          <a role="button" class="btn btn-lg text-light" href="#">
+            PHOTOS<i class="fa-solid fa-camera pl-2 text-indigo"></i>
+          </a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<br>
+
+	<div class="container font-righteous">
+		<img class="h100 ml-n3" style="position: absolute; z-index: -1;" src="img/170618_135111_3.png" alt="">
+		<div class="row h100" style="padding-left: 100px;color: indigo;">
+			<div class="col">
+				<h1>ROMEO'S<br>PHOTOGRAPHY</h1>
+			</div>
+			<div class="col align-self-center d-none d-md-block">
+        <blockquote class="blockquote text-right">
+          <p class="mb-0">To photograph is to confer importance.</p>
+          <footer class="blockquote-footer" style="color: indigo; font-size: small;">
+            Susan Sontag,<cite title="Source Title">"On Photography", 1977</cite>
+          </footer>
+        </blockquote>
+      </div>
+		</div>
+	</div>
+
+	<br>
+
+			<div class="text-center mx-auto sticky-top" style="width: 100px;">
+				<a href="index.html"><img class="h100" style="z-index: 3;" src="img/logos/RRflipv2.2w_t.png" alt=""></a>
+			</div>
+
+	<br>
+
+	<div class="container text-justify" style="height: 1000px;">
+		<div class="row">
+			<div class="col">
+				<h1 class="text-center"><i class="fa-solid fa-camera"></i></h1>
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis ad minima porro, obcaecati minus odio iure blanditiis autem impedit commodi!
+			</div>
+		</div>
+		<hr class="bg-secondary mx-n3" style="z-index: 0;">
+		<div class="row">
+			<div class="col">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quos maiores iusto nulla adipisci, eum expedita placeat qui quae neque perferendis ea odio voluptas quasi voluptatibus. Accusantium explicabo voluptate quidem?
+			</div>
+		</div>
+	</div>
+
+	<br>
+
+	<footer class="text-light h100 body-footer">
+		<div class="container" style="border: none;">
+			<div class="row">
+				<div class="col text-center mt-4 pt-2">
+          <a class="text-light" href="http://github.com/"><span class="fa-brands fa-github fa-xl"></span></a>
+          <a class="text-light" href="http://instagram.com/"><span class="fa-brands fa-instagram fa-xl"></span></a>
+          <a class="text-light" href="http://pinterest.com/"><span class="fa-brands fa-pinterest fa-xl"></span></a>
+          <a class="text-light" href="http://discord.gg/"><span class="fa-brands fa-discord fa-xl"></span></a>
+          <a class="text-light" href="http://twitch.tv/"><span class="fa-brands fa-twitch fa-xl"></span></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div id="reserveModal" class="modal fade" role="dialog">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header bg-info text-white">
+					<h3 class="modal-title">Reserve a Campsite</h3>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body">
+					<div class="container-fluid">
+						<form>
+							<div class="row form-group">
+
+								<label class="col-sm-6 col-form-label" for="numCampers">Number of Campers</label>
+								<div class="col">
+									<select class="form-control" name="numCampers" id="numCampers">
+										<option value="">Select...</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+										<option value="6">6</option>
+									</select>
+								</div>
+							</div>
+							
+							<div class="row form-group">
+								<label class="col-sm-6 col-form-label" for="date">Date</label>
+								<div class="col">
+									<input class="form-control" type="id" name="date" id="date" placeholder="mm/dd/yyy">
+								</div>
+							</div>
+
+							<div class="row form-group">
+								<label class="col col-sm-6 col-form-label">Campsite Type</label>
+								<div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
+									<label class="btn btn-secondary bg-success active">
+										<input type="radio" name="options" id="siteTent" autocomplete="off" checked>TENT
+									</label>
+									<label class="btn btn-secondary bg-primary">
+										<input type="radio" name="options" id="siteRV" autocomplete="off">RV
+									</label>
+								</div>
+							</div>
+							
+							<div class="row">
+								<div class="col">
+									<button class="btn btn-secondary" data-dismiss="modal"><i class="fa fa-trash mr-2"></i>Cancel</button>
+									<button class="btn btn-primary" type="submit"><i class="fa fa-search mr-2"></i>Search</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+	<!-- <script src="node_modules/popper.js/dist/umd/popper.min.js"></script> -->
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
