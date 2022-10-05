@@ -3,15 +3,20 @@
 .row div {border: 1px solid #00ff00;} */
 
 body{
-  font-family: 'Forum';
   font-size: x-large;
   background-image: linear-gradient(to right, #777, #aaa, #aaa, #aaa, #aaa, #aaa, #777);
+  font-family: Raleway;
 }
 
 header {
   /* background-image: linear-gradient(to right, darkblue,blue, purple,purple,purple, red, darkred); */
   background-image: linear-gradient(to right, #777,#555, #555,indigo,#555, #555, #777);
   text-decoration: none;
+  font-family: 'Forum';
+}
+
+.modal {
+  background-color: #555;
 }
 
 .body-footer {

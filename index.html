@@ -27,7 +27,7 @@
           </a>
 				</div>
 				<div class="col text-right">
-          <a role="button" class="btn btn-lg text-light" data-toggle="modal" data-target="#reserveModal">
+          <a role="button" class="btn btn-lg text-light" data-toggle="modal" data-target="#scheduleModal">
             SCHEDULE<i class="fa-regular fa-calendar pl-2 text-indigo"></i>
           </a>
 				</div>
@@ -67,23 +67,23 @@
 
 	<br>
 
-			<div class="text-center mx-auto sticky-top" style="width: 100px;">
-				<a href="#"><img class="h100" style="z-index: 3;" src="img/logos/RRflipv2.2w_t.png" alt=""></a>
-			</div>
+	<div class="text-center mx-auto sticky-top" style="width: 100px;">
+		<a href="#"><img class="h100" style="z-index: 3;" src="img/logos/RRflipv2.3w_t.png" alt=""></a>
+	</div>
 
 	<br>
 
-	<div class="container text-justify" style="height: 1000px;">
+	<div class="container text-justify py-2">
+		<h1 class="text-center"><i class="fa-solid fa-home"></i></h1>
 		<div class="row">
 			<div class="col">
-				<h1 class="text-center"><i class="fa-solid fa-home"></i></h1>
-				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis ad minima porro, obcaecati minus odio iure blanditiis autem impedit commodi!
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nulla sit dolore numquam veniam assumenda animi possimus exercitationem cupiditate quia libero voluptatibus expedita, corrupti, quaerat sint. Placeat, mollitia dolorum. Culpa, impedit eius. Libero perspiciatis perferendis ipsum ad quam illum a quo fuga, soluta sunt, qui eum, repellat est dolorum deserunt illo consectetur in exercitationem quaerat ea quibusdam iusto! Odit ipsam adipisci amet placeat doloribus, voluptates atque maiores minima repudiandae fugit aspernatur illum possimus, neque eos, officiis rem porro consequatur similique in beatae saepe ab distinctio? Architecto, illum amet repellat consequuntur culpa doloribus pariatur, quisquam doloremque harum ad dicta rem neque!
 			</div>
 		</div>
 		<hr class="bg-secondary mx-n3" style="z-index: 0;">
 		<div class="row">
 			<div class="col">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quos maiores iusto nulla adipisci, eum expedita placeat qui quae neque perferendis ea odio voluptas quasi voluptatibus. Accusantium explicabo voluptate quidem?
+				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad omnis excepturi nihil ducimus nesciunt culpa accusantium. Minima quos vitae labore dolor necessitatibus, quam incidunt, asperiores, laboriosam hic numquam eligendi iusto! Aliquid, quaerat necessitatibus. Sit in nulla dolorem, doloribus iure repellat, placeat consequatur tenetur iusto aut amet nesciunt deserunt dolore architecto laborum, explicabo eos neque mollitia dolorum voluptate. Aperiam, minus! Dicta consectetur molestias quod qui ipsa consequuntur maiores omnis rerum eveniet odit? Incidunt, tempora repudiandae nam quia dolorum tenetur ullam minima odio natus ea quis beatae dolores delectus consequuntur, dolorem cumque nesciunt ducimus similique expedita nihil! Quae neque necessitatibus minima asperiores?
 			</div>
 		</div>
 	</div>
@@ -95,7 +95,7 @@
 			<div class="row">
 				<div class="col text-center mt-4 pt-2">
           <a class="text-light" href="http://github.com/"><span class="fa-brands fa-github fa-xl"></span></a>
-          <a class="text-light" href="http://instagram.com/"><span class="fa-brands fa-instagram fa-xl"></span></a>
+          <a class="text-light" href="http://behance.com/"><span class="fa-brands fa-behance fa-xl"></span></a>
           <a class="text-light" href="http://pinterest.com/"><span class="fa-brands fa-pinterest fa-xl"></span></a>
           <a class="text-light" href="http://discord.gg/"><span class="fa-brands fa-discord fa-xl"></span></a>
           <a class="text-light" href="http://twitch.tv/"><span class="fa-brands fa-twitch fa-xl"></span></a>
@@ -104,53 +104,75 @@
 		</div>
 	</footer>
 
-	<div id="reserveModal" class="modal fade" role="dialog">
+	<div id="scheduleModal" class="modal fade" role="dialog">
 		<div class="modal-dialog modal-lg" role="document">
-			<div class="modal-content">
-				<div class="modal-header bg-info text-white">
-					<h3 class="modal-title">Reserve a Campsite</h3>
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<div class="modal-content text-light bg-secondary">
+				<div class="modal-header">
+					<h3 class="modal-title ml-3" style="color: indigo;font-family: Righteous;">SCHEDULE A SESSION</h3>
+					<button type="button" class="close text-danger mr-1" data-dismiss="modal"><i class="fa-solid fa-xmark"></i></button>
 				</div>
 				<div class="modal-body">
 					<div class="container-fluid">
 						<form>
 							<div class="row form-group">
-								<label class="col-sm-6 col-form-label" for="numCampers">Number of Campers</label>
+
+								<label class="col-sm-6 col-form-label" for="numCampers">How many different locations?</label>
+
 								<div class="col">
 									<select class="form-control" name="numCampers" id="numCampers">
-										<option value="">Select...</option>
+										<option value="0">Select...</option>
 										<option value="1">1</option>
 										<option value="2">2</option>
 										<option value="3">3</option>
 										<option value="4">4</option>
 										<option value="5">5</option>
-										<option value="6">6</option>
+										<option value="6">5+</option>
 									</select>
 								</div>
+
 							</div>
+							
 							<div class="row form-group">
-								<label class="col-sm-6 col-form-label" for="date">Date</label>
+								<label class="col-sm-6 col-form-label" for="date">Start Date</label>
 								<div class="col">
 									<input class="form-control" type="id" name="date" id="date" placeholder="mm/dd/yyy">
 								</div>
 							</div>
 							<div class="row form-group">
-								<label class="col col-sm-6 col-form-label">Campsite Type</label>
+								<label class="col-sm-6 col-form-label" for="date">End Date</label>
+								<div class="col">
+									<input class="form-control" type="id" name="date" id="date" placeholder="mm/dd/yyy">
+								</div>
+							</div>
+
+							<div class="row form-group">
+								<label class="col col-sm-6 col-form-label">Photography Style</label>
 								<div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
-									<label class="btn btn-secondary bg-success active">
-										<input type="radio" name="options" id="siteTent" autocomplete="off" checked>TENT
+									<label class="btn btn-primary bg-secondary active">
+										<input type="radio" name="options" id="siteTent" autocomplete="off" checked>1
 									</label>
-									<label class="btn btn-secondary bg-primary">
-										<input type="radio" name="options" id="siteRV" autocomplete="off">RV
+									<label class="btn btn-primary bg-secondary">
+										<input type="radio" name="options" id="siteRV" autocomplete="off">2
+									</label>
+									<label class="btn btn-primary bg-secondary">
+										<input type="radio" name="options" id="siteRV" autocomplete="off">3
+									</label>
+									<label class="btn btn-primary bg-secondary">
+										<input type="radio" name="options" id="siteRV" autocomplete="off">4
+									</label>
+									<label class="btn btn-primary bg-secondary">
+										<input type="radio" name="options" id="siteRV" autocomplete="off">5
 									</label>
 								</div>
 							</div>
+							
 							<div class="row">
 								<div class="col">
-									<button class="btn btn-secondary" data-dismiss="modal"><i class="fa fa-trash mr-2"></i>Cancel</button>
-									<button class="btn btn-primary" type="submit"><i class="fa fa-search mr-2"></i>Search</button>
+									<button class="btn btn-dark border-danger" data-dismiss="modal"><i class="fa-regular fa-calendar-xmark mr-2 text-danger"></i>Cancel</button>
+									<button class="btn btn-dark border-success" type="submit"><i class="fa-regular fa-calendar-check mr-2 text-success"></i>Submit</button>
 								</div>
 							</div>
+
 						</form>
 					</div>
 				</div>
