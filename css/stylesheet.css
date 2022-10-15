@@ -34,8 +34,8 @@ header {
 
 hr {  
   height:3px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .h100 {
@@ -46,4 +46,12 @@ hr {
   border: solid;
   border-radius: 0.6rem;
   border-color: indigo;
+}
+
+.var-img {
+  width: 100vw;
+  min-width:auto ;
+  /* max-width: 500px; */
+  /* height: 33vh; */
+  /* max-height: 500px; */
 }
